@@ -1,3 +1,3 @@
-# updated-portfolio
+# Updated-Portfolio
 
-This is my updated work porfolio. It chronicles the assignments we have been given and how we have progressed as students from the beginning of the course till now. I have decided to use Materialize instead of Bootstrap for this assignment because I prefer their overall look and style.
+This is my updated classwork portfolio. It chronicles the homework assignments we have been given and how I have progressed as a student from the beginning of the course till now. I have decided to use Materialize instead of Bootstrap for this assignment because I prefer it's overall look and style. Thus, I have decided to update all the pages to a new format with proper responsivness.
