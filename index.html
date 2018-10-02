@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zachary Isaac Home</title>
     <!--GOOGLE FONT LINK-->
+    <!--MATERIALIZE ICON LINK-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--MINIFIED MATERIALIZE CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--CSS LINK-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--JAVASCRIPT LINK-->
     <link rel="stylesheet" href="assets/javascript/app.js">
 </head>
@@ -18,23 +22,44 @@
 <body>
     <!--HEADER/NAV SECTION-->
     <div class="container">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Zachary Isaac</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Zachary Isaac</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <!--JQUERY-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!--MATERIALIZE COMPILED AND MINIFIED JAVASCRIPT-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <!--JAVASCRIPT-->
+            <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
